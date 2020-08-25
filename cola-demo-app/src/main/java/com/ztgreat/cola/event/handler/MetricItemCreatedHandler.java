@@ -11,8 +11,6 @@ import com.ztgreat.cola.dto.RefreshScoreCmd;
 import com.ztgreat.cola.dto.domainevent.MetricItemCreatedEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Collections;
-
 @EventHandler
 public class MetricItemCreatedHandler implements EventHandlerI<Response, MetricItemCreatedEvent> {
 
